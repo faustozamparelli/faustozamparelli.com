@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//faustozamparelli.com/blog/post/firstpost/</loc>
+    <loc>//localhost:1313/blog/post/firstpost/</loc>
     <lastmod>2024-07-14T19:22:49+02:00</lastmod>
   </url><url>
-    <loc>//faustozamparelli.com/blog/</loc>
+    <loc>//localhost:1313/blog/</loc>
     <lastmod>2024-07-14T19:22:49+02:00</lastmod>
   </url><url>
-    <loc>//faustozamparelli.com/blog/post/</loc>
+    <loc>//localhost:1313/blog/post/</loc>
     <lastmod>2024-07-14T19:22:49+02:00</lastmod>
   </url><url>
-    <loc>//faustozamparelli.com/blog/readme/</loc>
+    <loc>//localhost:1313/blog/readme/</loc>
     <lastmod>2024-07-14T18:33:37+02:00</lastmod>
   </url><url>
-    <loc>//faustozamparelli.com/blog/categories/</loc>
+    <loc>//localhost:1313/blog/categories/</loc>
   </url><url>
-    <loc>//faustozamparelli.com/blog/tags/</loc>
+    <loc>//localhost:1313/blog/tags/</loc>
   </url>
 </urlset>
