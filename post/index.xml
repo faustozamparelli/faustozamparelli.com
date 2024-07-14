@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>//localhost:1313/blog/post/</link>
+    <link>//faustozamparelli.com/blog/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Jul 2024 19:22:49 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//faustozamparelli.com/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firstpost</title>
-      <link>//localhost:1313/blog/post/firstpost/</link>
+      <link>//faustozamparelli.com/blog/post/firstpost/</link>
       <pubDate>Sun, 14 Jul 2024 19:22:49 +0200</pubDate>
-      <guid>//localhost:1313/blog/post/firstpost/</guid>
+      <guid>//faustozamparelli.com/blog/post/firstpost/</guid>
       <description>Hello, World!</description>
     </item>
   </channel>
