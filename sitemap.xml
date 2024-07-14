@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/categories/</loc>
+    <loc>https://faustozamparelli/blog/</loc>
+    <lastmod>2024-07-14T18:33:37+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://faustozamparelli/blog/readme/</loc>
+    <lastmod>2024-07-14T18:33:37+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>https://faustozamparelli/blog/categories/</loc>
+  </url><url>
+    <loc>https://faustozamparelli/blog/tags/</loc>
   </url>
 </urlset>
