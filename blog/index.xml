@@ -6,14 +6,14 @@
     <description>Recent content on faustozamparelli</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 19:22:49 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0200</lastBuildDate>
     <atom:link href="//faustozamparelli.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Firstpost</title>
-      <link>//faustozamparelli.com/blog/post/firstpost/</link>
-      <pubDate>Sun, 14 Jul 2024 19:22:49 +0200</pubDate>
-      <guid>//faustozamparelli.com/blog/post/firstpost/</guid>
-      <description>Hello, World!</description>
+      <title>Welcome</title>
+      <link>//faustozamparelli.com/blog/post/welcome/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0200</pubDate>
+      <guid>//faustozamparelli.com/blog/post/welcome/</guid>
+      <description>&lt;p&gt;Hi, my name is Fausto Zamparelli and welcome to my blog.&lt;/p&gt;&#xA;&lt;p&gt;I want to start by thanking you for being here and taking the time to read my posts. I am not a good writer at all, this is just a place where I will feel free to express what is been on my mind lately&#xA;with no filters.&lt;/p&gt;</description>
     </item>
     <item>
       <title>README</title>
