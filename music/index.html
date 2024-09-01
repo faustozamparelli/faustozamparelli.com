@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundcloud Playlist Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #playButton {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        #player {
+            width: 80%;
+            height: 300px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Soundcloud Playlist</h1>
+    <button id="playButton">Load and Play Playlist</button>
+    <div id="player"></div>
+
+    <script src="https://w.soundcloud.com/player/api.js"></script>
+    <script>
+        const playButton = document.getElementById('playButton');
+        const playerContainer = document.getElementById('player');
+        let widget;
+
+        playButton.addEventListener('click', function() {
+            if (!widget) {
+                // Initialize the widget
+                playerContainer.innerHTML = '<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/user/sets/playlist-id&color=%23ff5500&auto_play=true" width="100%" height="300" frameborder="no"></iframe>';
+                playerContainer.style.display = 'block';
+                
+                widget = SC.Widget('sc-widget');
+                widget.bind(SC.Widget.Events.READY, function() {
+                    widget.play();
+                });
+
+                playButton.textContent = 'Pause Playlist';
+            } else {
+                widget.toggle();
+                widget.isPaused(function(paused) {
+                    playButton.textContent = paused ? 'Play Playlist' : 'Pause Playlist';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
