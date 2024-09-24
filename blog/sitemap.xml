@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/posts/depressing/</loc>
+    <loc>//faustozamparelli.com/blog/posts/depressing/</loc>
     <lastmod>2024-09-05T20:20:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>//faustozamparelli.com/blog/</loc>
     <lastmod>2024-09-05T20:20:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/posts/</loc>
+    <loc>//faustozamparelli.com/blog/posts/</loc>
     <lastmod>2024-09-05T20:20:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/posts/quotes/</loc>
+    <loc>//faustozamparelli.com/blog/posts/quotes/</loc>
     <lastmod>2024-09-02T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/posts/wokeism/</loc>
+    <loc>//faustozamparelli.com/blog/posts/wokeism/</loc>
     <lastmod>2024-09-01T12:00:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/posts/welcome/</loc>
+    <loc>//faustozamparelli.com/blog/posts/welcome/</loc>
     <lastmod>2024-07-15T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/readme/</loc>
+    <loc>//faustozamparelli.com/blog/readme/</loc>
     <lastmod>2024-07-14T18:33:37+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/categories/</loc>
+    <loc>//faustozamparelli.com/blog/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/blog/tags/</loc>
+    <loc>//faustozamparelli.com/blog/tags/</loc>
   </url>
 </urlset>
