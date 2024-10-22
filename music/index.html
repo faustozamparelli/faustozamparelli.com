@@ -1,63 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soundcloud Playlist Player</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        #playButton {
-            font-size: 18px;
-            padding: 10px 20px;
-            margin-bottom: 20px;
-            cursor: pointer;
-        }
-        #player {
-            width: 80%;
-            height: 300px;
-            display: none;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>just vibe with me</title>
+  <style>
+    body {
+      background-color: black;
+      align-items: center;
+    }
+
+    /* .player iframe {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      border-radius: 50%;
+    } */
+  </style>
 </head>
+
 <body>
-    <h1>My Soundcloud Playlist</h1>
-    <button id="playButton">Load and Play Playlist</button>
-    <div id="player"></div>
-
-    <script src="https://w.soundcloud.com/player/api.js"></script>
-    <script>
-        const playButton = document.getElementById('playButton');
-        const playerContainer = document.getElementById('player');
-        let widget;
-
-        playButton.addEventListener('click', function() {
-            if (!widget) {
-                // Initialize the widget
-                playerContainer.innerHTML = '<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/user/sets/playlist-id&color=%23ff5500&auto_play=true" width="100%" height="300" frameborder="no"></iframe>';
-                playerContainer.style.display = 'block';
-                
-                widget = SC.Widget('sc-widget');
-                widget.bind(SC.Widget.Events.READY, function() {
-                    widget.play();
-                });
-
-                playButton.textContent = 'Pause Playlist';
-            } else {
-                widget.toggle();
-                widget.isPaused(function(paused) {
-                    playButton.textContent = paused ? 'Play Playlist' : 'Pause Playlist';
-                });
-            }
-        });
-    </script>
+  <div class="player">
+    <iframe allow="autoplay" shuffle="true"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1871611430%3Fsecret_token%3Ds-Lodl4GTxkRj&color=%23660000&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+    </iframe>
+  </div>
 </body>
+
 </html>
